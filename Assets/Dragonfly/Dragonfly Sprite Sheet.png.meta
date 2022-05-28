@@ -81,6 +81,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -568,6 +569,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dragonfly Sprite Sheet_0: 5878492945270880141
+      Dragonfly Sprite Sheet_15: 865484586781979496
+      Dragonfly Sprite Sheet_13: -5575512193496754785
+      Dragonfly Sprite Sheet_3: -7467315726146406761
+      Dragonfly Sprite Sheet_10: -3543417236805821371
+      Dragonfly Sprite Sheet_5: 144268704160420310
+      Dragonfly Sprite Sheet_1: -5843327751117899854
+      Dragonfly Sprite Sheet_6: -2031120718520508077
+      Dragonfly Sprite Sheet_9: 6251239619761304547
+      Dragonfly Sprite Sheet_18: -4144424736111328037
+      Dragonfly Sprite Sheet_17: -8136792157495204489
+      Dragonfly Sprite Sheet_12: 6155907727150069880
+      Dragonfly Sprite Sheet_4: -5083329376450004038
+      Dragonfly Sprite Sheet_11: -694869590022717713
+      Dragonfly Sprite Sheet_16: -5456216300513215500
+      Dragonfly Sprite Sheet_8: 4476416832474521594
+      Dragonfly Sprite Sheet_2: 8757320050748804117
+      Dragonfly Sprite Sheet_7: -5910538411710575774
+      Dragonfly Sprite Sheet_14: 3096610361307509344
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

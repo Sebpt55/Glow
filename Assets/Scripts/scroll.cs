@@ -14,7 +14,7 @@ public class scroll : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
-        width = boxCollider.size.x + 3;
+        width = boxCollider.size.x + 2.9f;
         rb.velocity = new Vector2(speed, 0);
     }
 

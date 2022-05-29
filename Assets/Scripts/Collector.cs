@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Collector : MonoBehaviour
 {
     public Text flyText;
-    private float flyCollect = 0;
+    public Text FinalText;
+    public float flyCollect = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,6 +15,7 @@ public class Collector : MonoBehaviour
         {
             flyCollect ++;
             flyText.text = flyCollect.ToString();
+            FinalText.text = flyCollect.ToString();
             Destroy(collision.gameObject);
             
         }

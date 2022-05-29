@@ -19,4 +19,6 @@ public class PlayerMovement : MonoBehaviour
         var movementup = Input.GetAxis("Vertical");
         transform.position += new Vector3(0, movementup, 0) * Time.deltaTime * MovementSpeed;
     }
+
+  
 }

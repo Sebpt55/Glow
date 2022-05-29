@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Collector : MonoBehaviour
 {
+
+    public AudioSource audioPlayer;
+
     public Text flyText;
     private float flyCollect = 0;
 
@@ -12,6 +15,7 @@ public class Collector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Fly"))
         {
+            audioPlayer.Play();
             flyCollect ++;
             flyText.text = flyCollect.ToString();
             Destroy(collision.gameObject);

@@ -49,7 +49,7 @@ public class Health : MonoBehaviour
         {
              if (health == 1)
             {
-                health--;
+                health = 0;
                 Destroy(this.gameObject);
                 PlayerMan.isGameOver = true;
             }

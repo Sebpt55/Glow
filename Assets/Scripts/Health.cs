@@ -14,7 +14,8 @@ public class Health : MonoBehaviour
 
     public gameOver GameOverScreen;
 
-    
+    public AudioSource audioPlayer;
+    public AudioSource audioPlayer2;
 
     private void Update()
     {
@@ -49,12 +50,14 @@ public class Health : MonoBehaviour
         {
              if (health == 1)
             {
+                audioPlayer2.Play();
                 health = 0;
                 Destroy(this.gameObject);
                 PlayerMan.isGameOver = true;
             }
             else if (health > 0)
             {
+                audioPlayer.Play();
                 health--;
             }
            
